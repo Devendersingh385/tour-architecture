@@ -3,18 +3,47 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className="bg-[#5452f5] py-5">
-        <div className="grid text-center lg:mb-0 lg:w-full lg:max-w-screen-xl lg:grid-cols-2 lg:text-left">
+      <div className="bg-[#5452f5] py-10 relative mt-[68px]">
+        <div className="grid text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-2 lg:text-left">
           <div className="">
-            <h1>Adventure Awaits: Gear Up with Tour Architecture!</h1>
+            <h1 className="text-4xl font-bold">Adventure Awaits: Gear Up with Tour Architecture!</h1>
             <p>Gear Up for Adventure with Tour Architecture: Rent or Buy Top-Quality Hiking Accessories Today!"</p>
           </div>
           <div className="">
-            <h1>Adventure Awaits: Gear Up with Tour Architecture!</h1>
+          
+            <Image alt="dsds" src={'/banner-hero.avif'} width={500} height={500} />
           </div>
         </div>
       </div>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+      <div className=" py-10 relative">
+        <div className="grid text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-3 lg:text-left">
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img className="rounded-t-lg" src="/banner-hero.avif" alt="" width={500} height={400} />
+                </a>
+                <div className="p-5">
+                    <a href="#">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+          </div>
+          <div className="">
+          
+            <Image alt="dsds" src={'/banner-hero.avif'} width={500} height={500} />
+          </div>
+        </div>
+      </div>
+      {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
@@ -48,9 +77,9 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+      {/* <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -118,7 +147,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
