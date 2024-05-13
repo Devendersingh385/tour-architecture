@@ -3,46 +3,318 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className="bg-[#5452f5] py-10 relative mt-[68px]">
+      <div className="bg-[#5452f5] py-[70px] relative mt-[68px]">
         <div className="grid text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-2 lg:text-left">
           <div className="">
-            <h1 className="text-4xl font-bold">Adventure Awaits: Gear Up with Tour Architecture!</h1>
-            <p>Gear Up for Adventure with Tour Architecture: Rent or Buy Top-Quality Hiking Accessories Today!"</p>
+            <h1 className="text-[48px] leading-[59px] font-bold text-white">
+              Adventure Awaits: <br className="lg:block hiddne" /> Gear Up with{" "}
+              <br className="lg:block hiddne" /> Tour Architecture!
+            </h1>
+            <p className="text-white text-lg">
+              Gear Up for Adventure with Tour Architecture: Rent or Buy
+              Top-Quality Hiking Accessories Today!"
+            </p>
           </div>
           <div className="">
-          
-            <Image alt="dsds" src={'/banner-hero.avif'} width={500} height={500} />
+            <Image
+              alt="dsds"
+              src={"/banner-hero.avif"}
+              width={500}
+              height={500}
+            />
           </div>
         </div>
       </div>
       <div className=" py-10 relative">
-        <div className="grid text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-3 lg:text-left">
+        <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-1 lg:text-left">
+          <h2>Our Products</h2>
+          <p>
+            Elevate your camping game with our top-notch accessories for a
+            memorable outdoor adventure.
+          </p>
+        </div>
+        <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-4 lg:text-left">
           <div className="">
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/two-person.avif"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
                 <a href="#">
-                    <img className="rounded-t-lg" src="/banner-hero.avif" alt="" width={500} height={400} />
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Camping - 2 Person
+                  </h5>
                 </a>
-                <div className="p-5">
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Read more
                         <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
-                    </a>
-                </div>
+                    </a> */}
+              </div>
             </div>
-
           </div>
           <div className="">
-          
-            <Image alt="dsds" src={'/banner-hero.avif'} width={500} height={500} />
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/three-person.avif"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Camping - 3 Person
+                  </h5>
+                </a>
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a> */}
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/sleeping-bag.webp"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Sleeping Bag 0-5 degree
+                  </h5>
+                </a>
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a> */}
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/Sleeping-bag-simple.webp"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Camping Sleeping Bag10°
+                  </h5>
+                </a>
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a> */}
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/gas.webp"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Camping Stove (Portable)
+                  </h5>
+                </a>
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a> */}
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/Butane-Canister.webp"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Butane Canister
+                  </h5>
+                </a>
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a> */}
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/Battery-Head-Torch.webp"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    FORCLAZ Battery Head Torch
+                  </h5>
+                </a>
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a> */}
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/tourch.webp"
+                  alt=""
+                  width={500}
+                  height={300}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    GENERIC LED TOURCH
+                  </h5>
+                </a>
+                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a> */}
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div className=" py-10 relative">
+        <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-1 lg:text-left">
+          <h2>Why Choose Us</h2>
+        </div>
+        <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-3 lg:text-left">
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px]">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/quality-assurance.png"
+                  alt=""
+                  width={100}
+                  height={100}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Quality Products
+                  </h5>
+                </a>
+                <p>We do a strict quality-check for every product, as ensuring quality product matters to us.</p>               
+              </div>
+            </div>
+          </div> 
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px]">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/shopping-bag.png"
+                  alt=""
+                  width={100}
+                  height={100}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  One-stop rental solution
+                  </h5>
+                </a>
+                <p>All equipment rental solution is under one roof on VikNick Services.</p>               
+              </div>
+            </div>
+          </div>       
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px]">
+              <a href="#">
+                <img
+                  className="rounded-t-lg"
+                  src="/shopping-bag.png"
+                  alt=""
+                  width={100}
+                  height={100}
+                />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  One-stop rental solution
+                  </h5>
+                </a>
+                <p>All equipment rental solution is under one roof on VikNick Services.</p>               
+              </div>
+            </div>
+          </div>       
+        </div>
+      </div>
+
       {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
