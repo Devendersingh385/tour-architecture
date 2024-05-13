@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className="bg-[#5452f5] py-[70px] relative mt-[68px]">
+      <div className="bg-[#5452f5] bg-[url('/banner-hero.avif')] bg-center bg-no-repeat bg-cover min-h-[480px] py-[70px] relative mt-[68px]">
         <div className="grid text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-2 lg:text-left">
           <div className="">
             <h1 className="text-[48px] leading-[59px] font-bold text-white">
@@ -16,26 +16,26 @@ export default function Home() {
             </p>
           </div>
           <div className="">
-            <Image
+            {/* <Image
               alt="dsds"
               src={"/banner-hero.avif"}
               width={500}
               height={500}
-            />
+            /> */}
           </div>
         </div>
       </div>
       <div className=" py-10 relative">
-        <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-1 lg:text-left">
-          <h2>Our Products</h2>
-          <p>
+        <div className="text-center lg:max-w-screen-xl mx-auto lg:grid-cols-1 lg:text-left mb-8">
+          <h2 className="text-[42px] font-bold ">Our Products</h2>
+          <p className="text-base font-normal">
             Elevate your camping game with our top-notch accessories for a
             memorable outdoor adventure.
           </p>
         </div>
         <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-4 lg:text-left">
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -47,7 +47,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Camping - 2 Person
                   </h5>
                 </a>
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -73,7 +73,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Camping - 3 Person
                   </h5>
                 </a>
@@ -87,7 +87,7 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -99,7 +99,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Sleeping Bag 0-5 degree
                   </h5>
                 </a>
@@ -113,7 +113,7 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -125,7 +125,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Camping Sleeping Bag10°
                   </h5>
                 </a>
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -151,7 +151,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Camping Stove (Portable)
                   </h5>
                 </a>
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -177,7 +177,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Butane Canister
                   </h5>
                 </a>
@@ -191,7 +191,7 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -203,7 +203,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     FORCLAZ Battery Head Torch
                   </h5>
                 </a>
@@ -217,7 +217,7 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <img
                   className="rounded-t-lg"
@@ -229,7 +229,7 @@ export default function Home() {
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     GENERIC LED TOURCH
                   </h5>
                 </a>
@@ -245,22 +245,22 @@ export default function Home() {
         </div>
       </div>
       <div className=" py-10 relative">
-        <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-1 lg:text-left">
-          <h2>Why Choose Us</h2>
+        <div className="text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:text-left mb-8">
+          <h2 className="text-[42px] font-bold mb-6">Why Choose Us</h2>
         </div>
         <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-3 lg:text-left">
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px]">
-              <a href="#">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
+              <a href="#" className="mb-4 block">
                 <img
                   className="rounded-t-lg"
                   src="/quality-assurance.png"
                   alt=""
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                 />
               </a>
-              <div className="p-5">
+              <div className="p-0">
                 <a href="#">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Quality Products
@@ -271,17 +271,17 @@ export default function Home() {
             </div>
           </div> 
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px]">
-              <a href="#">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
+              <a href="#" className="mb-4 block">
                 <img
                   className="rounded-t-lg"
                   src="/shopping-bag.png"
                   alt=""
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                 />
               </a>
-              <div className="p-5">
+              <div className="">
                 <a href="#">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   One-stop rental solution
@@ -292,20 +292,83 @@ export default function Home() {
             </div>
           </div>       
           <div className="">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px]">
-              <a href="#">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
+              <a href="#" className="mb-4 block">
                 <img
                   className="rounded-t-lg"
-                  src="/shopping-bag.png"
+                  src="/profit-growth.png"
                   alt=""
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                 />
               </a>
-              <div className="p-5">
+              <div className="">
                 <a href="#">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  One-stop rental solution
+                  Convenient rentals
+                  </h5>
+                </a>
+                <p>All equipment rental solution is under one roof on VikNick Services.</p>               
+              </div>
+            </div>
+          </div>       
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
+              <a href="#" className="mb-4 block">
+                <img
+                  className="rounded-t-lg"
+                  src="/profit-growth.png"
+                  alt=""
+                  width={80}
+                  height={80}
+                />
+              </a>
+              <div className="">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Economical solutions
+                  </h5>
+                </a>
+                <p>All equipment rental solution is under one roof on VikNick Services.</p>               
+              </div>
+            </div>
+          </div>       
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
+              <a href="#" className="mb-4 block">
+                <img
+                  className="rounded-t-lg"
+                  src="/customer-service.png"
+                  alt=""
+                  width={80}
+                  height={80}
+                />
+              </a>
+              <div className="">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Customer support
+                  </h5>
+                </a>
+                <p>All equipment rental solution is under one roof on VikNick Services.</p>               
+              </div>
+            </div>
+          </div>       
+          <div className="">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
+              <a href="#" className="mb-4 block">
+                <img
+                  className="rounded-t-lg"
+                  src="/traveling.png"
+                  alt=""
+                  width={80}
+                  height={80}
+                />
+              </a>
+              <div className="">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Door to door delivery
                   </h5>
                 </a>
                 <p>All equipment rental solution is under one roof on VikNick Services.</p>               
