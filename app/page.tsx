@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <div className="bg-[#5452f5] bg-[url('/banner-hero.avif')] bg-center bg-no-repeat bg-cover min-h-[480px] py-[70px] relative mt-[68px]">
         <div className="grid text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-2 lg:text-left">
-          <div className="">
+          <div>
             <h1 className="text-[48px] leading-[59px] font-bold text-white">
               Adventure Awaits: <br className="lg:block hiddne" /> Gear Up with{" "}
               <br className="lg:block hiddne" /> Tour Architecture!
@@ -15,26 +15,20 @@ export default function Home() {
               Top-Quality Hiking Accessories Today!"
             </p>
           </div>
-          <div className="">
-            {/* <Image
-              alt="dsds"
-              src={"/banner-hero.avif"}
-              width={500}
-              height={500}
-            /> */}
+          <div>
           </div>
         </div>
       </div>
-      <div className=" py-10 relative">
+      <div className="py-10 relative">
         <div className="text-center lg:max-w-screen-xl mx-auto lg:grid-cols-1 lg:text-left mb-8">
-          <h2 className="text-[42px] font-bold ">Our Products</h2>
+          <h2 className="text-[42px] font-bold">Our Products</h2>
           <p className="text-base font-normal">
             Elevate your camping game with our top-notch accessories for a
             memorable outdoor adventure.
           </p>
         </div>
         <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-4 lg:text-left">
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -50,17 +44,11 @@ export default function Home() {
                   <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Camping - 2 Person
                   </h5>
-                </a>
-                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a> */}
+                </a>                
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -76,17 +64,11 @@ export default function Home() {
                   <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Camping - 3 Person
                   </h5>
-                </a>
-                {/* <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Read more
-                        <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a> */}
+                </a>                
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -107,7 +89,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -128,7 +110,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -149,7 +131,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -170,7 +152,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -191,7 +173,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
               <a href="#">
                 <Image
@@ -214,12 +196,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" py-10 relative">
+      <div className="py-10 relative">
         <div className="text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:text-left mb-8">
           <h2 className="text-[42px] font-bold mb-6">Why Choose Us</h2>
         </div>
         <div className="grid text-center gap-6 lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-3 lg:text-left">
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
               <a href="#" className="mb-4 block">
                 <Image
@@ -240,7 +222,7 @@ export default function Home() {
               </div>
             </div>
           </div> 
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
               <a href="#" className="mb-4 block">
                 <Image
@@ -251,7 +233,7 @@ export default function Home() {
                   height={80}
                 />
               </a>
-              <div className="">
+              <div>
                 <a href="#">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   One-stop rental solution
@@ -261,7 +243,7 @@ export default function Home() {
               </div>
             </div>
           </div>       
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
               <a href="#" className="mb-4 block">
                 <Image
@@ -272,7 +254,7 @@ export default function Home() {
                   height={80}
                 />
               </a>
-              <div className="">
+              <div>
                 <a href="#">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Convenient rentals
@@ -282,7 +264,7 @@ export default function Home() {
               </div>
             </div>
           </div>       
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
               <a href="#" className="mb-4 block">
                 <Image
@@ -293,7 +275,7 @@ export default function Home() {
                   height={80}
                 />
               </a>
-              <div className="">
+              <div>
                 <a href="#">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Economical solutions
@@ -303,7 +285,7 @@ export default function Home() {
               </div>
             </div>
           </div>       
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
               <a href="#" className="mb-4 block">
                 <Image
@@ -314,7 +296,7 @@ export default function Home() {
                   height={80}
                 />
               </a>
-              <div className="">
+              <div>
                 <a href="#">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Customer support
@@ -324,7 +306,7 @@ export default function Home() {
               </div>
             </div>
           </div>       
-          <div className="">
+          <div>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-[32px] h-full">
               <a href="#" className="mb-4 block">
                 <Image
@@ -344,8 +326,8 @@ export default function Home() {
                 <p>All equipment rental solution is under one roof on VikNick Services.</p>               
               </div>
             </div>
-          </div>       
-        </div>
+          </div> 
+      </div>      
       </div>      
     </main>
   );
