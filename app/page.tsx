@@ -11,13 +11,13 @@ export default function Home() {
           <div className="grid text-center lg:mb-0 lg:max-w-screen-xl mx-auto lg:grid-cols-2 lg:text-left">
             <div>
               <h1 className="text-[48px] leading-[59px] font-bold text-white">
-                Adventure Awaits: <br className="lg:block hiddne" /> Gear Up
+                Adventure Awaits: <br className="lg:block hidden" /> Gear Up
                 with
-                <br className="lg:block hiddne" /> Tour Architecture!
+                <br className="lg:block hidden" /> Tour Architecture!
               </h1>
               <p className="text-white text-lg">
                 Gear Up for Adventure with Tour Architecture: Rent or Buy
-                Top-Quality Hiking Accessories Today!
+                Top-Quality Hiking Accessories Today
               </p>
             </div>
             <div></div>
